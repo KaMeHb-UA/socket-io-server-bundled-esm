@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "webpack && node --experimental-modules postbuild.mjs"
+    },
+    "devDependencies": {
+        "fs": "./fs-placeholder",
+        "socket.io": "^2.2.0",
+        "uws": "./uws-placeholder",
+        "webpack": "^4.35.2",
+        "webpack-cli": "^3.3.5"
+    }
+}
